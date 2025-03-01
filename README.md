@@ -1,5 +1,7 @@
 # GrammarBot
 
+https://github.com/user-attachments/assets/5012a4a3-8c15-4323-b066-a1de0c24eeb0
+
 ## Overview
 
 **GrammarBot** is an end-to-end application that detects and corrects grammatical errors, categorizes them, logs them for each student, and provides personalized feedback. The application is composed of:
