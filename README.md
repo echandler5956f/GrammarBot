@@ -216,7 +216,7 @@ When first started, it will create `grammarbot.db` (if using SQLite) and automat
 ```
 MIT License
 
-Copyright (c) [2025] [Ethan Chandler]
+Copyright (c) 2025 Ethan Chandler
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
