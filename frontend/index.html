@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Grammar Bot Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .error-span {
+      background-color: #fdd;
+      padding: 2px 4px;
+      margin: 2px;
+      border-radius: 3px;
+    }
+    .corrected-span {
+      background-color: #dfd;
+      padding: 2px 4px;
+      margin: 2px;
+      border-radius: 3px;
+    }
+    #output {
+      margin-top: 20px;
+    }
+    .feedback {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #eef;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Grammar Bot</h1>
+
+  <div>
+    <label for="studentName">Create New Student Name:</label>
+    <input type="text" id="studentName" placeholder="JohnDoe" />
+    <button id="createStudentBtn">Create Student</button>
+    <p>Or use existing Student ID: <input type="number" id="existingStudentId" /></p>
+  </div>
+
+  <hr />
+
+  <div>
+    <label for="textInput">Enter text to analyze:</label><br/>
+    <textarea id="textInput" rows="5" cols="60"></textarea><br/>
+    <button id="analyzeBtn">Analyze</button>
+  </div>
+
+  <div id="output"></div>
+  <div id="feedback" class="feedback"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

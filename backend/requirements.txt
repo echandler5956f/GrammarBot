@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+SQLAlchemy
+transformers
+torch
+sentencepiece
+python-dotenv
+diff-match-patch
